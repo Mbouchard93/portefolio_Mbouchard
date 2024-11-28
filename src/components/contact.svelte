@@ -1,6 +1,6 @@
 <script>
     import HeadingSection from './headingSection.svelte';
-    import BtnMedias from './BtnMedias.svelte';
+    import BtnMedias from './btnMedias.svelte';
 </script>
 
 

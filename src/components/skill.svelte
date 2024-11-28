@@ -1,5 +1,5 @@
 <script>
-    import HeadingSection from './HeadingSection.svelte';
+    import HeadingSection from './headingSection.svelte';
     import { skills } from '$lib/data/skills';
 
     let filter = '';
