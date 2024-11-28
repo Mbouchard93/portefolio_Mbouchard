@@ -1,11 +1,11 @@
 <script>
     import '../app.css';
-     import Header from '$components/header.svelte';
-     import About from '$components/about.svelte';
-     import Skill from '$components/skill.svelte';
-     import Project from '$components/project.svelte';
-     import Contact from '$components/contact.svelte';
-     import Footer from '$components/footer.svelte';
+    import Header from '../components/header.svelte'
+    import About from  '../components/about.svelte'
+    import Skill from '../components/skill.svelte'
+    import Project from '../components/project.svelte'
+    import Contact from '../components/contact.svelte'
+    import Footer from '../components/footer.svelte'
 
 
     const sections = [
