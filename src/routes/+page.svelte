@@ -27,7 +27,7 @@
         </div> 
 </section>
 
-<main >
+<main>
     <!-- About Section -->
     <section id="about" class="bg-blueDark text-white py-10">
         <About />
