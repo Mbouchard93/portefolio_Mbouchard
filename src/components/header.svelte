@@ -14,7 +14,7 @@
             <ul class="hidden md:flex space-x-4">
                 {#each sections as { id, name }}
                     <li>
-                        <a href={`#${id}`} class="text-black font-heading hover:text-blueDark">{name}</a>
+                        <a href={`#${id}`} class="text-blueDark font-heading hover:underline">{name}</a>
                     </li>
                 {/each}
             </ul>

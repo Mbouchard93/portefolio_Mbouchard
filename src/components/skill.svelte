@@ -13,7 +13,6 @@
         return skills.filter(skill => !filter || skill.category === filter);
     }
 
-
 </script>
 
 <HeadingSection textColor="text-blueDark" title="Compétences" />
@@ -22,14 +21,14 @@
         <li>
             <button
                 on:click={() => setFilter('design')}
-                class={`py-[0.5rem] font-semibold font-body w-[10rem] lg:text-[1.25rem] md:w-[12.18rem] uppercase rounded-[0.625rem] ${filter === 'design' ? 'bg-blueDark text-blueLight' : 'border border-blueDark'}`}>
+                class={`py-[0.5rem] font-semibold font-body w-[10rem] lg:text-[1.25rem] md:w-[12.18rem] uppercase rounded-[0.625rem] hover:bg-blueDark hover:text-blueLight ${filter === 'design' ? 'bg-blueDark text-blueLight' : 'border border-blueDark'}`}>
                 Design UX/UI
             </button>
         </li>
         <li>
             <button
                 on:click={() => setFilter('development')}
-                class={`py-[0.5rem] font-semibold font-body w-[10rem] lg:text-[1.25rem]  md:w-[12.18rem] uppercase rounded-[0.625rem] ${filter === 'development' ? 'bg-blueDark text-blueLight' : 'border border-blueDark'}`}>
+                class={`py-[0.5rem] font-semibold font-body w-[10rem] lg:text-[1.25rem]  md:w-[12.18rem] uppercase rounded-[0.625rem]  hover:bg-blueDark hover:text-blueLight ${filter === 'development' ? 'bg-blueDark text-blueLight' : 'border border-blueDark'}`}>
                 Développement
             </button>
         </li>

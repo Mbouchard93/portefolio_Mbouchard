@@ -11,11 +11,11 @@ function handleContactClick() {
     <div class="flex justify-between py-4 ">
         <div class="flex flex-col gap-6">
             <h2 >Mariane Bouchard</h2>
-            <button class="px-[2.25rem] py-[0.5rem] border shadow-btnContact border-blueDark text-[1.25rem] rounded-[0.3125rem] text-blueDark bg-blueLight" on:click={handleContactClick}>Contacter</button>
+            <button class="px-[2.25rem] py-[0.5rem] border shadow-btnContact border-blueDark text-[1.25rem] rounded-[0.3125rem] text-blueDark bg-blueLight hover:shadow-btnContactHover hover:translate-y-1" on:click={handleContactClick}>Contacter</button>
             <ul class="flex gap-10 ">
             {#each sections as section (section.id)}
                 {#if section.id !== 'contact'}
-                    <li><a href="#{section.id}" >{section.name}</a></li>
+                    <li><a class="hover:underline" href="#{section.id}" >{section.name}</a></li>
                 {/if}
             {/each}
             </ul>
