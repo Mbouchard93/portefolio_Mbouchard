@@ -6,12 +6,14 @@ export const projects = [
 		img: 'projects/trivia.svg',
 		course: 'Applications interactives',
 		dateProject: 'Octobre 2024',
-		imgs: ['projects/trivia.svg', 'projects/trivia.svg'],
+		imgs: ['projects/triviaImg01.svg', 'projects/triviaImg02.svg', 'projects/triviaImg03.svg'],
 		desct: [
-			"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée."
+			"Dans le cadre du cours d'applications interactives, nous avons dû créer des maquettes pour une application de jeu trivia avec plusieurs contraintes spécifiques à respecter pour chaque écran. Par exemple, l'écran d'accueil devait saisir le nom de l'utilisateur et l'enregistrer dans la mémoire du navigateur. L'écran de jeu devait générer les questions et réponses via une requête à une base de données, et l'écran de résultats devait afficher le score en pourcentage et permettre de recommencer la partie. Il y avait également des écrans pour gérer les paramètres du jeu, comme le nombre et le type de questions, et pour afficher l'historique des parties.",
+			"Avant de créer l'application, nous avons conçu les interfaces. J'ai réalisé le design UI et déterminé les interactions sur les écrans textuellement. J'ai développé cette application avec le framework Svelte sans avoir de connaissances préalables, ce qui a été un défi intéressant, surtout avec la sortie de Svelte 5 entre-temps.",
+			"J'ai adoré apprendre tout en créant une application. Cela m'a permis de maîtriser Svelte, de manipuler une base de données, et de gérer le stockage des données. Nous disposions d'environ un mois, réparti sur nos cours, pour réaliser ce projet."
 		],
 		skills: ['javascript', 'svelte', 'API'],
-		linkProject: 'https://www.google.com'
+		linkProject: 'trivia-app-seven-xi.vercel.app'
 	},
 	{
 		name: 'Skin app',
@@ -22,7 +24,9 @@ export const projects = [
 		dateProject: 'juin 2024',
 		imgs: ['projects/skin-recherche.svg', 'projects/skin-uikit.svg'],
 		desct: [
-			"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée."
+			"Dans le cadre du cours de design graphique 2, nous avons été amenés à concevoir une application comme si un client venait nous voir avec une idée de projet. Nous devions gérer l'ensemble du processus, de la recherche initiale aux maquettes finales.",
+			"J'ai choisi de développer une application de soins de la peau utilisant l'intelligence artificielle. J'ai commencé par tester plusieurs applications similaires pour identifier leurs lacunes et leurs points forts. Après une recherche approfondie, j'ai créé le flux utilisateur (user flow) et les maquettes filaires, puis j'ai finalisé les maquettes pour chaque interaction de l'application. J'ai également conçu un UI kit pour faciliter la maintenance de l'application.",
+			"Ce projet m'a fait tomber amoureux du design UX. J'ai compris l'importance de la recherche préalable, de la compréhension des besoins des utilisateurs, et de l'innovation avant même la conception visuelle d'une application."
 		],
 		skills: ['user research', 'wireFrames', 'UIKIT', 'user Flows'],
 		linkProject:
@@ -35,12 +39,24 @@ export const projects = [
 		img: 'projects/oskar.svg',
 		course: 'Project',
 		dateProject: 'Octobre 2024',
-		imgs: ['projects/skin.svg', 'projects/skin.svg'],
+		imgs: ['projects/oskarVision.png', 'projects/oskarCom.png'],
 		desct: [
-			"Le lorem ipsum est, en imprimerie, une suite de mots sans signification utilisée à titre provisoire pour calibrer une mise en page, le texte définitif venant remplacer le faux-texte dès qu'il est prêt ou que la mise en page est achevée."
+			"Dans le cadre de notre cours de projet, nous avons été chargés de créer un site web pour un organisme à but non lucratif (OBNL). Le projet comprenait toutes les étapes d'un contrat client, depuis la définition de la structure du projet et des tâches à accomplir, jusqu'à la gestion du temps et des ressources nécessaires pour assurer le bon déroulement du projet.",
+			"Nous avons commencé par une phase de recherche approfondie sur l'organisme et son environnement. L'objectif était de comprendre ce qui différencie cet OBNL des autres et de faire ressortir leur identité unique à travers le site web. Nous avons également cherché à créer une expérience utilisateur qui permette de ressentir pleinement la mission de l'organisme et d'inciter les utilisateurs à s'investir dans la communauté.",
+			'Une fois cette recherche terminée, nous avons présenté notre vision du projet au client, expliquant la direction que nous souhaitions prendre. Nous avons ensuite créé et fait valider des maquettes filaires avant de passer à la conception du design UI. Le design devait être à la fois attrayant et fonctionnel, permettant une navigation intuitive et une utilisation efficace du site.',
+			"La création du site web sera réalisée lors de la deuxième partie du projet. Nous utiliserons WordPress et PHP pour développer une plateforme robuste et personnalisable. Ce projet m'a permis de développer des compétences en gestion de projet, en design et en communication client, tout en appliquant des méthodes de recherche et de développement efficaces. J'ai particulièrement apprécié l'occasion de travailler sur un projet concret qui aura un impact positif sur la communauté."
 		],
-		skills: ['wireFrames', 'user research', 'user Flows', 'figma', 'design UX/UI'],
-		linkProject: ''
+		skills: [
+			'wireFrames',
+			'user research',
+			'user Flows',
+			'figma',
+			'design UX/UI',
+			'wordPress',
+			'PHP'
+		],
+		linkProject:
+			'https://www.figma.com/design/7PurvcRwA66UxwWJQOKPgv/OSKAR-Skate-et-Art?node-id=361-1793&t=I6eZDcDsTyTPLwNO-1'
 	},
 	{
 		name: 'DESIGN CHALLENGE',

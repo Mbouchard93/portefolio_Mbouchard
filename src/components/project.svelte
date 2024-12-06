@@ -107,7 +107,7 @@
             <img class=" place-self-start h-[150px]" src={img} alt="">
           {/each}
         </div>
-        <div class="font-body">
+        <div class="font-body flex flex-col gap-2">
           <strong>Description du projet :</strong>
           {#each projects[currentIndex].desct as paragraph}
            <p>{paragraph}</p> 
