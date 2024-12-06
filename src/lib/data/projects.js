@@ -13,7 +13,7 @@ export const projects = [
 			"J'ai adoré apprendre tout en créant une application. Cela m'a permis de maîtriser Svelte, de manipuler une base de données, et de gérer le stockage des données. Nous disposions d'environ un mois, réparti sur nos cours, pour réaliser ce projet."
 		],
 		skills: ['javascript', 'svelte', 'API'],
-		linkProject: 'trivia-app-seven-xi.vercel.app'
+		linkProject: 'https://trivia-app-seven-xi.vercel.app'
 	},
 	{
 		name: 'Skin app',
@@ -76,6 +76,7 @@ export const projects = [
 			'Ces projets m’ont permis de saisir l’importance de comprendre le contexte dans lequel nous concevons nos interfaces. J’ai appris à disposer les éléments de manière à ce qu’ils soient facilement compréhensibles par les utilisateurs tout en étant utiles, utilisables et esthétiquement agréables.'
 		],
 		skills: ['wireFrames', 'user research', 'user Flows', 'figma', 'design UX/UI'],
-		linkProject: ''
+		linkProject:
+			'https://www.figma.com/design/y4wliaq4Bs9p37InzC5GZA/Desing_challenge?node-id=261-52&t=e378eAzBbK0T2Q9j-1'
 	}
 ];

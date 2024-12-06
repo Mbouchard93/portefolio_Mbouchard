@@ -16,8 +16,6 @@
 </script>
 
 <Header {sections}/>
-
-<!-- Banner Section --> 
  <section class="bg-blueLight py-6 rounded-b-[3.125rem] ">
      <div class="container mx-auto px-6 grid grid-cols-2">
          <h1 class=" z-10 text-left text-4xl font-heading uppercase text-black text-[1.5625rem]  md:text-[5.25rem] leading-tight">développeur front-end passionné par le design UX</h1>
@@ -26,26 +24,19 @@
          </figure>
         </div> 
 </section>
-
 <main>
-    <!-- About Section -->
     <section id="about" class="bg-blueDark text-white py-10">
         <About />
     </section>
-
     <section class="bg-blueLight text-blueDark py-10 rounded-t-[3.125rem]">
         <Skill/>
     </section>
-    
-    <!-- Project Section -->
     <section id="project" class="bg-blueDark text-white py-10 z-10 relative rounded ">
         <Project />
     </section>
-    
-    <!-- Contact Section -->
+
     <section id="contact" class="bg-blueLight text-blueDark py-12 rounded-t-[3.125rem] ">
         <Contact />
     </section>
 </main>
-
 <Footer {sections}/>
